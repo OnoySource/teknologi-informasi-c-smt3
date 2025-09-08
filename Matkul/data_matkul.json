@@ -1,0 +1,82 @@
+[
+  {
+    "hari": "Rabu",
+    "pukul": "07:30 - 09:00 WIB",
+    "kode": "15920106",
+    "mata_kuliah": "Fiqih Islam",
+    "teori": 2,
+    "praktik": 0,
+    "jumlah_sks": 2,
+    "dosen": "Dewi Kurnia Putri., M.Pd"
+  },
+  {
+    "hari": "Rabu",
+    "pukul": "09:00 - 10:30 WIB",
+    "kode": "15920121",
+    "mata_kuliah": "Struktur Data 2",
+    "teori": 1,
+    "praktik": 2,
+    "jumlah_sks": 3,
+    "dosen": "Liranti Rahmelina, M.Pd.T., CITAP TM"
+  },
+  {
+    "hari": "Rabu",
+    "pukul": "10:30 - 12:00 WIB",
+    "kode": "15920122",
+    "mata_kuliah": "Komputer Grafis",
+    "teori": 1,
+    "praktik": 2,
+    "jumlah_sks": 3,
+    "dosen": "Arianto, S.Kom., M.Pd"
+  },
+  {
+    "hari": "Rabu",
+    "pukul": "13:00 - 14:30 WIB",
+    "kode": "15920123",
+    "mata_kuliah": "Manajemen Sains",
+    "teori": 3,
+    "praktik": 0,
+    "jumlah_sks": 3,
+    "dosen": "Riska Komariah., M.Ak"
+  },
+  {
+    "hari": "Kamis",
+    "pukul": "07:30 - 09:00 WIB",
+    "kode": "15920124",
+    "mata_kuliah": "Testing dan Implementasi",
+    "teori": 1,
+    "praktik": 2,
+    "jumlah_sks": 3,
+    "dosen": "Hermawanto., M.T.I"
+  },
+  {
+    "hari": "Kamis",
+    "pukul": "09:00 - 10:30 WIB",
+    "kode": "15920125",
+    "mata_kuliah": "Pengantar Data Sains",
+    "teori": 2,
+    "praktik": 0,
+    "jumlah_sks": 2,
+    "dosen": "Sugiono, M.M"
+  },
+  {
+    "hari": "Kamis",
+    "pukul": "10:30 - 12:00 WIB",
+    "kode": "15920127",
+    "mata_kuliah": "Perencanaan Sumber Daya Perusahaan",
+    "teori": 2,
+    "praktik": 0,
+    "jumlah_sks": 2,
+    "dosen": "Desi Nurhabibah., M.E"
+  },
+  {
+    "hari": "Kamis",
+    "pukul": "13:00 - 14:30 WIB",
+    "kode": "15920129",
+    "mata_kuliah": "Perancangan Basis Data",
+    "teori": 1,
+    "praktik": 2,
+    "jumlah_sks": 3,
+    "dosen": "Arbi Gunawan., S.Kom., M.T.I"
+  }
+]
