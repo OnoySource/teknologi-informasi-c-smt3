@@ -304,7 +304,7 @@
           border: none;
           height: 2px;               
           background-color: #e9ecef;  
-          margin: 20px 0;         
+          margin-top:30px;         
           }
         #sidebar li:hover {
             background: #f0f0f0; /* efek hover */
