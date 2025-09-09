@@ -39,11 +39,17 @@
         color: #0077b6;
         font-weight: bold;
     }
+    
+    .submenu {
+        display: none; /* disembunyikan awalnya */
+        padding-left: 15px;
+    }
+
 
     /* Sidebar */
     #sidebar {
       grid-area: sidebar;
-      backround: #fff;
+      background: #fff;
       padding: 15px;
       transition: transform 0.3s ease-in-out;
     }

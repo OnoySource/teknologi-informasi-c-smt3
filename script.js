@@ -1,22 +1,15 @@
-            document.addEventListener("DOMContentLoaded", () => {
-                const audio = document.getElementById("background-music");
+ const collapsibles = document.querySelectorAll('.collapsible');
 
-                // Cek apakah ada posisi terakhir yang tersimpan
-                const savedTime = localStorage.getItem("audioTime");
-                if (savedTime) {
-                    audio.currentTime = parseFloat(savedTime); // Set waktu terakhir
-                }
-
-                audio.muted = false; // Pastikan suara bisa keluar
-                audio
-                    .play()
-                    .catch(error => console.log("Autoplay dicegah:", error));
-
-                // Simpan posisi setiap 1 detik agar bisa dilanjutkan
-                setInterval(() => {
-                    localStorage.setItem("audioTime", audio.currentTime);
-                }, 1000);
-            });
+    collapsibles.forEach(item => {
+        item.addEventListener('click', () => {
+            const submenu = item.nextElementSibling;
+            if (submenu.style.display === 'block') {
+                submenu.style.display = 'none';
+            } else {
+                submenu.style.display = 'block';
+            }
+        });
+    });
 
     function toggleContent() {
       const content = document.getElementById("container");
