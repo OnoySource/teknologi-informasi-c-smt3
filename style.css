@@ -46,7 +46,12 @@
         cursor: pointer;
     }
 
-
+  hr {
+    border: none;
+    height: 2px;               
+    background-color: #e9ecef;  
+    margin: 10px 0;         
+    }
     /* Sidebar */
     #sidebar {
       grid-area: sidebar;
