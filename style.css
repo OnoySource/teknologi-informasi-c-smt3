@@ -238,6 +238,9 @@
 
     /* Responsive: HP */
     @media (max-width: 768px) {
+      *{
+        bordr: 1px solid red;
+      }
         body{
             font-size: 12px;
         }
@@ -289,10 +292,20 @@
             z-index: 1000;
             
         }
+        .submenu{
+          height:;
+          margin: 0;
+        }
         #sidebar ul{
-            margin: 40px 0px;
+            magin: 20px 0px;
 
         }
+        hr {
+          border: none;
+          height: 2px;               
+          background-color: #e9ecef;  
+          margin: 20px 0;         
+          }
         #sidebar li:hover {
             background: #f0f0f0; /* efek hover */
         }
