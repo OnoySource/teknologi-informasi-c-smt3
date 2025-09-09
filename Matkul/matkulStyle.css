@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+      padding: 0;
+}
 body {
     font-family: "Poppins", sans-serif;
-    font-size: 8px;
+    font-size: 14px;
     color:#4f5d75;
-
 }
 h1{
   text-align:center;
@@ -10,7 +13,6 @@ h1{
   font-weight: bold;
 }
 a{
-  font-size:12px;
   backround-color:#22333B;
   color:snow;
   border-radius:3px;
@@ -49,4 +51,23 @@ td:nth-child(6),
 td:nth-child(7)
 {
   text-align:center;
+}
+
+/*Responsive mobile*/
+@media (max-width: 768px) {
+  body{
+    font-size: 12px;
+  }
+  table{
+      width: 100%;
+  border-collapse: collapse;
+  display: block;      /* biar bisa scroll */
+  overflow-x: auto;    /* scroll horizontal di HP */
+  white-space: nowrap; /* teks nggak pecah */
+  }
+  h1{
+  text-align:center;
+  font-size:14px;
+  font-weight: bold;
+}
 }
