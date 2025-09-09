@@ -8,8 +8,10 @@
 
     body {
         font-family: "Poppins", sans-serif;
-        background-color: #f8f9fa;
-        color:#4f5d75;
+        bacground-color: #f8f9fa;
+        background-color: #232631;
+        coor:#4f5d75;
+        color: #FDFDFD;
         font-size: 12px;
     }
 
@@ -22,18 +24,19 @@
       grid-template-columns: 220px 1fr;
       grid-template-rows: 1fr auto;
       min-height: 100vh;
-  
     }
 
     header {
       grid-column: 1 / -1;
-      background: #e9ecef;
+      background: #272e3a;
+      border-bottom: 1px solid #fff;
       text-align: center;
       padding: 20px;
+      z-index: 1000;
     }
     h1{
         font-family: "Metal Mania", system-ui;
-        color: #fff;
+        color: #1A2B46;
         font-size: 18px;
         letter-spacing: 3px;
         color: #0077b6;
@@ -47,17 +50,21 @@
         cursor: pointer;
         text-decoration: none;
     }
+   
 
     hr {
       border: none;
       height: 2px;               
       background-color: #e9ecef;  
-      margin: 10px 0;         
+      margin: 10px 0;   
+      display: none;      
     }
     /* Sidebar */
     #sidebar {
       grid-area: sidebar;
-      background: #fff;
+      backround: #fff;
+      background-color: #272e3a;
+      border-right: 1px solid #fff;
       padding: 15px;
       transition: transform 0.3s ease-in-out;
       -webkit-tap-highlight-color: transparent;
@@ -76,7 +83,8 @@
     #sidebar ul li a {
       text-decoration: none;
       outline: none;
-      color:#4f5d75;
+      clor:#4f5d75;
+      color: #D9DCDE;
       display: block;
       padding: 8px;
       border-radius: 5px;
@@ -95,16 +103,18 @@
       text-decoration: none;
       outline: none;
       cursor: pointer;
+      color: red;
     }
     /* Body */
     main {
       grid-area: body;
-      padding: 10px;
+      padding: 40px;
     }
     section{
         height: auto;
         display: flex;
         justify-content: center;
+
     }
     .card {
         position: relative;
@@ -180,50 +190,48 @@
     .card img.spin {
     animation: spin 2s linear infinite; /* 2s bisa diganti kecepatannya */
     }
-/* Muter */
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+    /* Muter */
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
 
-/* Goyang kanan kiri */
-@keyframes wiggle {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-10px); }
-  75% { transform: translateX(10px); }
-}
+    /* Goyang kanan kiri */
+    @keyframes wiggle {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-10px); }
+      75% { transform: translateX(10px); }
+    }
 
-/* Loncat-loncat */
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-}
+    /* Loncat-loncat */
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
 
-/* Membesar mengecil */
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-}
+    /* Membesar mengecil */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
 
-/* Kelas umum buat chaos */
-.chaos-spin {
-  animation: spin 1s linear infinite;
-}
-.chaos-wiggle {
-  animation: wiggle 1s ease-in-out infinite;
-}
-.chaos-bounce {
-  animation: bounce 1.2s ease-in-out infinite;
-}
-.chaos-pulse {
-  animation: pulse 1.5s ease-in-out infinite;
-}
-
-
+    /* Kelas umum buat chaos */
+    .chaos-spin {
+      animation: spin 1s linear infinite;
+    }
+    .chaos-wiggle {
+      animation: wiggle 1s ease-in-out infinite;
+    }
+    .chaos-bounce {
+      animation: bounce 1.2s ease-in-out infinite;
+    }
+    .chaos-pulse {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
 
 
-/* Hamburger (hanya muncul di HP) */
-.hamburger {
+    /* Hamburger (hanya muncul di HP) */
+    .hamburger {
       display: none;
       position: fixed;
       top: 15px;
@@ -292,15 +300,18 @@
             margin: 7px;
             transition: 0.4s ease;
         }
+        main{
+          padding: 10px;
+        }
 
         #sidebar {
             position: fixed;
             padding-top: 25px;
             top: 0;
             left: 0;
+            margin: 0;
             height: 100%;
             width: 220px;
-            background: #fff;
             border-radius: 5px;
             transform: translateX(-100%);
             z-index: 1000;
@@ -329,8 +340,11 @@
           border: none;
           height: 2px;               
           background-color: #e9ecef;  
-          margin-top:30px;         
-          }
+          margin-top:30px;  
+          display: block;       
+         }
+     
+          
         #sidebar li:hover {
             background: #f0f0f0; /* efek hover */
         }
