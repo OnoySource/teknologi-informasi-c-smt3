@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${data.praktik}</td>
                 <td>${data.jumlah_sks}</td>
                 <td>${data.dosen}</td>
+                <td>${data.ruang}</td>
               </tr>
             `;
             tableBody.innerHTML += row;
