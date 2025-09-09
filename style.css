@@ -43,14 +43,15 @@
     .submenu {
         display: none; /* disembunyikan awalnya */
         padding-left: 15px;
+        border-bottom: 2px solid #e9ecef;
         cursor: pointer;
     }
 
-  hr {
-    border: none;
-    height: 2px;               
-    background-color: #e9ecef;  
-    margin: 10px 0;         
+    hr {
+      border: none;
+      height: 2px;               
+      background-color: #e9ecef;  
+      margin: 10px 0;         
     }
     /* Sidebar */
     #sidebar {
@@ -293,12 +294,12 @@
             
         }
         .submenu{
-          height:;
           margin: 0;
+          
         }
-        #sidebar ul{
-            magin: 20px 0px;
-
+        .submenu{
+          border: none;
+          border-bottom: 2px solid #e9ecef;
         }
         hr {
           border: none;
