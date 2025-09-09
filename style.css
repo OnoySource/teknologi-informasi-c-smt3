@@ -43,6 +43,7 @@
     .submenu {
         display: none; /* disembunyikan awalnya */
         padding-left: 15px;
+        cursor: pointer;
     }
 
 
@@ -272,11 +273,12 @@
 
         #sidebar {
             position: fixed;
+            padding-top: 25px;
             top: 0;
             left: 0;
             height: 100%;
             width: 220px;
-            backgound: #fff;
+            background: #fff;
             border-radius: 5px;
             transform: translateX(-100%);
             z-index: 1000;
