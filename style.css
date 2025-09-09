@@ -60,7 +60,9 @@
       background: #fff;
       padding: 15px;
       transition: transform 0.3s ease-in-out;
-    
+      -webkit-tap-highlight-color: transparent;
+      outline: none;
+      cursor: pointer;
     }
 
     #sidebar ul {
@@ -303,7 +305,9 @@
             border-radius: 5px;
             transform: translateX(-100%);
             z-index: 1000;
+            -webkit-tap-highlight-color: transparent;
             outline: none;
+            cursor: pointer;
             
         }
         .submenu{
@@ -313,16 +317,15 @@
         .submenu{
           border: none;
           border-bottom: 2px solid #e9ecef;
+          -webkit-tap-highlight-color: transparent;
+          outline: none;
+          cursor: pointer;
         }
         .submenu li a:hover {
           background: #999;
           color: #fff;
         }
-        .submenu li {
-          text-decoration: none;
-          outline: none;
-          cursor: pointer;
-        }
+   
         hr {
           border: none;
           height: 2px;               
