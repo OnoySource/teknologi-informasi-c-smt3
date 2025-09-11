@@ -1,90 +1,90 @@
 [
   {
     "hari": "Rabu",
-    "pukul": "07:30 - 09:00 WIB",
+    "waktu": "07.30-09.00 WIB",
     "kode": "15920106",
-    "mata_kuliah": "Fiqih Islam",
+    "mata_kuliah": "Fiqh Islam",
     "teori": 2,
-    "praktik": 0,
-    "jumlah_sks": 2,
-    "dosen": "Dewi Kurnia Putri., M.Pd",
-    "ruang": "2C"
+    "praktek": 0,
+    "sks": 2,
+    "dosen": "Dewi Kurnia Putri, M.Pd",
+    "ruang": "2.C"
   },
   {
     "hari": "Rabu",
-    "pukul": "09:00 - 10:30 WIB",
-    "kode": "15920121",
-    "mata_kuliah": "Struktur Data 2",
-    "teori": 1,
-    "praktik": 2,
-    "jumlah_sks": 3,
-    "dosen": "Liranti Rahmelina, M.Pd.T., CITAP TM",
-    "ruang": "2C"
-  },
-  {
-    "hari": "Rabu",
-    "pukul": "10:30 - 12:00 WIB",
-    "kode": "15920122",
-    "mata_kuliah": "Komputer Grafis",
-    "teori": 1,
-    "praktik": 2,
-    "jumlah_sks": 3,
-    "dosen": "Arianto, S.Kom., M.Pd",
-    "ruang": "2C"
-  },
-  {
-    "hari": "Rabu",
-    "pukul": "13:00 - 14:30 WIB",
+    "waktu": "09.00-10.30 WIB",
     "kode": "15920123",
     "mata_kuliah": "Manajemen Sains",
     "teori": 3,
-    "praktik": 0,
-    "jumlah_sks": 3,
-    "dosen": "Riska Komariah., M.Ak",
-    "ruang": "2C"
+    "praktek": 0,
+    "sks": 3,
+    "dosen": "Riska Komariah, M.Ak",
+    "ruang": "2.C"
+  },
+  {
+    "hari": "Rabu",
+    "waktu": "10.30-12.00 WIB",
+    "kode": "15920122",
+    "mata_kuliah": "Komputer Grafis",
+    "teori": 1,
+    "praktek": 2,
+    "sks": 3,
+    "dosen": "Arianto, S.Kom., M.Pd",
+    "ruang": "2.C"
+  },
+  {
+    "hari": "Rabu",
+    "waktu": "13.00-14.30 WIB",
+    "kode": "15920121",
+    "mata_kuliah": "Struktur Data",
+    "teori": 2,
+    "praktek": 1,
+    "sks": 3,
+    "dosen": "Liranti Rahmelina, M.Pd.T., CITAP TM",
+    "ruang": "2.C"
   },
   {
     "hari": "Kamis",
-    "pukul": "07:30 - 09:00 WIB",
+    "waktu": "07.30-09.00 WIB",
     "kode": "15920124",
     "mata_kuliah": "Testing dan Implementasi",
     "teori": 1,
-    "praktik": 2,
-    "jumlah_sks": 3,
-    "dosen": "Hermawanto., M.T.I",
-    "ruang": "2C"
+    "praktek": 2,
+    "sks": 3,
+    "dosen": "Donaya Pasha, S.Kom., M.Kom",
+    "ruang": "2.C"
   },
   {
     "hari": "Kamis",
-    "pukul": "09:00 - 10:30 WIB",
+    "waktu": "09.00-10.30 WIB",
     "kode": "15920125",
     "mata_kuliah": "Pengantar Data Sains",
     "teori": 2,
-    "praktik": 0,
-    "jumlah_sks": 2,
+    "praktek": 0,
+    "sks": 2,
     "dosen": "Sugiono, M.M",
-    "ruang": "2C"
+    "ruang": "2.C"
   },
   {
     "hari": "Kamis",
-    "pukul": "10:30 - 12:00 WIB",
+    "waktu": "10.30-12.00 WIB",
     "kode": "15920127",
     "mata_kuliah": "Perencanaan Sumber Daya Perusahaan",
     "teori": 2,
-    "praktik": 0,
-    "jumlah_sks": 2,
-    "dosen": "Desi Nurhabibah., M.E",
-    "ruang": "2C"
+    "praktek": 0,
+    "sks": 2,
+    "dosen": "Desi Nurhabibah, M.E",
+    "ruang": "2.C"
   },
   {
     "hari": "Kamis",
-    "pukul": "13:00 - 14:30 WIB",
-    "kode": "15920129",
+    "waktu": "13.00-14.30 WIB",
+    "kode": "15920126",
     "mata_kuliah": "Perancangan Basis Data",
     "teori": 1,
-    "praktik": 2,
-    "jumlah_sks": 3,
-    "dosen": "Arbi Gunawan., S.Kom., M.T.I",
-    "ruang": "2C"
+    "praktek": 2,
+    "sks": 3,
+    "dosen": "Donaya Pasha, S.Kom., M.Kom",
+    "ruang": "2.C"
   }
 ]

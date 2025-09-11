@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const row = `
               <tr>
                 <td>${data.hari}</td>
-                <td>${data.pukul}</td>
+                <td>${data.waktu}</td>
                 <td>${data.kode}</td>
                 <td>${data.mata_kuliah}</td>
                 <td>${data.teori}</td>
-                <td>${data.praktik}</td>
-                <td>${data.jumlah_sks}</td>
+                <td>${data.praktek}</td>
+                <td>${data.sks}</td>
                 <td>${data.dosen}</td>
                 <td>${data.ruang}</td>
               </tr>

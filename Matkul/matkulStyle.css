@@ -10,6 +10,9 @@ h1{
   font-size:18px;
   font-weight: bold;
 }
+p{
+  text-align: center;
+}
 a{
   backround-color:#22333B;
   color:snow;
@@ -29,6 +32,7 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
 th{
     border: 1px solid #DEE2E6;
     text-align:center;
@@ -44,7 +48,8 @@ td {
   padding: 8px;
   text-align: left;
 }
-td:nth-child(5),
+td:nth-child(1),
+td:nth-child(3),
 td:nth-child(6),
 td:nth-child(7),
 td:nth-child(9)
