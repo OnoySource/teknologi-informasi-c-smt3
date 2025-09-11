@@ -3,7 +3,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
-      order: 1px solid red;
+      bordr: 1px solid red;
     }
 
     body {
@@ -114,11 +114,14 @@
         height: auto;
         display: flex;
         justify-content: center;
+        background-color: #272e3a;
+        box-shadow: 0 0px 2px #adb5bd;
+        border-radius: 3px;
 
     }
     .card {
         position: relative;
-        width: 100px;
+        width: 200px;
         height: auto;
         overflow: hidden;
         border-radius: 50%;
@@ -126,7 +129,6 @@
         cursor: pointer;
     }
     .note{
-        backgroud-color: red;
         text-align: center;
         position: relative;
     }

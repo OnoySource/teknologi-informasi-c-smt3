@@ -18,7 +18,8 @@
     "teori": 1,
     "praktik": 2,
     "jumlah_sks": 3,
-    "dosen": "Liranti Rahmelina, M.Pd.T., CITAP TM"
+    "dosen": "Liranti Rahmelina, M.Pd.T., CITAP TM",
+    "ruang": "2C"
   },
   {
     "hari": "Rabu",
@@ -28,7 +29,8 @@
     "teori": 1,
     "praktik": 2,
     "jumlah_sks": 3,
-    "dosen": "Arianto, S.Kom., M.Pd"
+    "dosen": "Arianto, S.Kom., M.Pd",
+    "ruang": "2C"
   },
   {
     "hari": "Rabu",
@@ -38,7 +40,8 @@
     "teori": 3,
     "praktik": 0,
     "jumlah_sks": 3,
-    "dosen": "Riska Komariah., M.Ak"
+    "dosen": "Riska Komariah., M.Ak",
+    "ruang": "2C"
   },
   {
     "hari": "Kamis",
@@ -48,7 +51,8 @@
     "teori": 1,
     "praktik": 2,
     "jumlah_sks": 3,
-    "dosen": "Hermawanto., M.T.I"
+    "dosen": "Hermawanto., M.T.I",
+    "ruang": "2C"
   },
   {
     "hari": "Kamis",
@@ -58,7 +62,8 @@
     "teori": 2,
     "praktik": 0,
     "jumlah_sks": 2,
-    "dosen": "Sugiono, M.M"
+    "dosen": "Sugiono, M.M",
+    "ruang": "2C"
   },
   {
     "hari": "Kamis",
@@ -68,7 +73,8 @@
     "teori": 2,
     "praktik": 0,
     "jumlah_sks": 2,
-    "dosen": "Desi Nurhabibah., M.E"
+    "dosen": "Desi Nurhabibah., M.E",
+    "ruang": "2C"
   },
   {
     "hari": "Kamis",
@@ -78,6 +84,7 @@
     "teori": 1,
     "praktik": 2,
     "jumlah_sks": 3,
-    "dosen": "Arbi Gunawan., S.Kom., M.T.I"
+    "dosen": "Arbi Gunawan., S.Kom., M.T.I",
+    "ruang": "2C"
   }
 ]
