@@ -1,0 +1,56 @@
+{
+  "kelompok": {
+    "1": {
+      "makalah": "Fiqih Zakat (Macam, Nisab, Distribusi)",
+      "anggota": ["Triyono", "Jannah", "Risko"]
+    },
+    "2": {
+      "makalah": "Fiqih Haji Dan Umrah (Rukun, Wajib, Tatacara)",
+      "anggota": ["Adi", "Nina", "Halimah"]
+    },
+    "3": {
+      "makalah": "Fiqih Thaharah (Najis, Wudhu, Mandi Wajib, Tayamum)",
+      "anggota": ["Sela", "Puji", "Chiko"]
+    },
+    "4": {
+      "makalah": "Persoalan Kontemporer Fiqih Dalam Media Sosial",
+      "anggota": ["Viki", "Nirma", "Yogga"]
+    },
+    "5": {
+      "makalah": "Fiqih Puasa (Syarat, Hukum, Qadha, Fidyah)",
+      "anggota": ["Opie", "Bila", "Aji"]
+    },
+    "6": {
+      "makalah": "Perbedaan Pendapat Ulama (Ikhtilaf Dalam Madzhab)",
+      "anggota": ["Eza", "Riska", "Novi"]
+    },
+    "7": {
+      "makalah": "Definisi Fiqih, Syariah, Ushul Fiqih",
+      "anggota": ["Nurlul", "Reva", "Rani"]
+    },
+    "8": {
+      "makalah": "Fiqih Keluarga (Nikah, Talak, Waris)",
+      "anggota": ["Windy", "Regina", "Rita"]
+    },
+    "9": {
+      "makalah": "Fiqih Shalat (Rukun, Syarat, Sunnah, Shalat Wajib, Shalat Sunah)",
+      "anggota": ["Zaky", "Mila"]
+    },
+    "10": {
+      "makalah": "Fiqih Muamalah Dasar (Jual Beli, Riba, Hutang Piutang)",
+      "anggota": ["Tata", "Saep"]
+    },
+    "11": {
+      "makalah": "Fiqih Dalam Ibadah Dan Sosial",
+      "anggota": ["Fida", "Syahrul"]
+    },
+    "12": {
+      "makalah": "Persoalan Kontemporer Fiqih Ekonomi Digital",
+      "anggota": ["Rova", "Robi"]
+    },
+    "13": {
+      "makalah": "Sumber Hukum Islam (Al-Quran, Hadist, Ijma, Qiyar, Ijtihad)",
+      "anggota": ["Rahma", "Lutfi"]
+    }
+  }
+}
