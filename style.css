@@ -82,7 +82,6 @@
     #sidebar ul li a {
       text-decoration: none;
       outline: none;
-      clor:#4f5d75;
       color: #D9DCDE;
       display: block;
       padding: 8px;
@@ -94,15 +93,15 @@
       background: #999;
       color: #fff;
     }
-    .submenu li a:hover {
-      color: #fff;
+    .submenu a {
     }
-    .submenu li {
+    #sidebar .submenu a {
+      font-weight: normal;
       text-decoration: none;
       outline: none;
       cursor: pointer;
-      color: red;
     }
+
     /* Body */
     main {
       grid-area: body;
@@ -343,10 +342,6 @@
           display: block;       
          }
      
-          
-        #sidebar li:hover {
-        }
-        
 
         #sidebar.active {
             transform: translateX(0);
