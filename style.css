@@ -62,7 +62,6 @@
     /* Sidebar */
     #sidebar {
       grid-area: sidebar;
-      backround: #fff;
       background-color: #272e3a;
       border-right: 1px solid #fff;
       padding: 15px;
@@ -96,7 +95,6 @@
       color: #fff;
     }
     .submenu li a:hover {
-      background: #999;
       color: #fff;
     }
     .submenu li {
@@ -334,7 +332,6 @@
           cursor: pointer;
         }
         .submenu li a:hover {
-          background: #999;
           color: #fff;
         }
    
@@ -348,7 +345,6 @@
      
           
         #sidebar li:hover {
-            background: #f0f0f0; /* efek hover */
         }
         
 
