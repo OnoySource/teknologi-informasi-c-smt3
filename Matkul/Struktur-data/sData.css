@@ -1,56 +1,92 @@
-*{
 
-}
-body{
+body {
     font-family: "Poppins", sans-serif;
-    background-color: #f8f9fa;
+    font-size: 14px;
     color:#4f5d75;
-    font-size: 12px;
 }
-header{
-  
+h1{
+  text-align:center;
+  font-size:18px;
+  font-weight: bold;
+}
+h2{
+  text-align: left;
+  font-size:18px;
+}
+p{
+  text-align: center;
 }
 a{
-  font-size:12px;
+  backround-color:#22333B;
   color:snow;
   border-radius:3px;
   padding:6px 8px;
   text-decoration:none;
   -webkit-tap-highlight-color: transparent;
     font-weight: bold;
-    border-radius: 50%;
 }
 span{
   color: #0077b6;
 }
 a:hover{
+  background-color:snow;
 }
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
-h1{
-  text-align: center;
-  font-size: 16px;
-}
-tr:nth-child(even){
-  background-color:#DEE2E6;
-  
-}
+
 th{
-    text-align:center;
     border: 1px solid #DEE2E6;
     text-align:center;
     padding:6px 2px;
-    background-color: #0077b6;
-
+    background-color:#6096BA;
     color:snow;
 }
-td {
-    border: 1px solid #DEE2E6;
-    padding: 8px;
-    text-align: left;
+tr:nth-child(even){
+  background-color:#DEE2E6;
 }
-td:nth-child(3), td:nth-child(1){
-  text-align: center;
+td {
+  border: 1px solid #DEE2E6;
+  padding: 8px;
+  text-align: left;
+}
+td:nth-child(1)
+{
+  text-align:center;
+}
+
+/*Responsive mobile*/
+@media (max-width: 768px) {
+  body{
+    font-size: 12px;
+  }
+  table{
+      width: 100%;
+  border-collapse: collapse;
+  display: block;      /* biar bisa scroll */
+  overflow-x: auto;    /* scroll horizontal di HP */
+  white-space: nowrap; /* teks nggak pecah */
+}
+h1{
+  font-size:16px;
+  text-align:center;
+  font-weight: bold;
+
+}
+h2{
+  text-align:left;
+  font-size:16px;
+  font-weight: bold;
+}
+th{
+    border: 1px solid #DEE2E6;
+    text-align:center;
+    padding:1em;
+    background-color:#6096BA;
+    color:snow;
+}
+td{
+  padding: 1em;
+}
 }
