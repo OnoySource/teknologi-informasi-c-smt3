@@ -1,0 +1,44 @@
+{
+  "kelompok": {
+    "1": {
+      "makalah": "Prinsip dasar penggunaan software, aplikasi cleaning data dengan software",
+      "anggota": ["Robi", "Balbinta", "Rani Wiyana", "Nurul"]
+    },
+    "2": {
+      "makalah": "Aplikasi dan transformation dengan software untuk modelling dengan software",
+      "anggota": ["Ody Saputra", "Milla", "Raudhatul", "Rika"]
+    },
+    "3": {
+      "makalah": "Prinsip dasar tentang data sampling dengan software serta dasar dari mapping problem",
+      "anggota": ["Yusuf Aji", "Yoga", "Opie", "Nikma"]
+    },
+    "4": {
+      "makalah": "Konsep dasar dari linear regression model, perhitungan linear regression menggunakan software",
+      "anggota": ["Ciko", "Vicky", "Rovatun", "Resta"]
+    },
+    "5": {
+      "makalah": "Konsep dasar dari logistic regression model",
+      "anggota": ["Safta", "Adi", "Reva", "Nina"]
+    },
+    "6": {
+      "makalah": "Konsep dasar dari text analytics",
+      "anggota": ["Radit", "Regina", "Yusul Al", "Riska"]
+    },
+    "7": {
+      "makalah": "Konsep dasar dari dokumentasi dalam data science",
+      "anggota": ["Saep", "Sahrul", "Novia", "Tata"]
+    },
+    "8": {
+      "makalah": "Mengaplikasikan teknik dokumentasi dengan menggunakan software",
+      "anggota": ["Triyono", "Reza", "Windy Ananda", "Risco"]
+    },
+    "9": {
+      "makalah": "Konsep dasar pemrograman data science",
+      "anggota": ["Zaki", "Cella", "Halimah", "Rohmatun"]
+    },
+    "10": {
+      "makalah": "Konsep dasar logaritma text dengan aplikasi Python",
+      "anggota": ["Windy Nabila", "Mufida", "Lutfi", "Rikian", "Safta"]
+    }
+  }
+}
