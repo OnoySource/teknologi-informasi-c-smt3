@@ -9,6 +9,10 @@ h1{
   font-size:18px;
   font-weight: bold;
 }
+h2{
+  text-align: left;
+  font-size:18px;
+}
 p{
   text-align: center;
 }
