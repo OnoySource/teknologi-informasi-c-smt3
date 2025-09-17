@@ -1,14 +1,15 @@
 {
   "kelompok": {
-    "1": ["odi", "safta", "rova", "diva"],
-    "2": ["saep", "lutpi", "sela", "halimah"],
-    "3": ["robi", "balbinta", "nikma", "puji"],
-    "4": ["aji", "yusuf", "radit", "syahrul"],
-    "5": ["risco", "triyono", "rahma", "rani"],
-    "6": ["fida", "mila", "tata", "windi", "dila"],
-    "7": ["novi", "rika", "zaki", "ciko"],
-    "8": ["bila", "yoga", "nina", "viki"],
-    "9": ["riki", "eza", "resta", "janah"],
-    "10": ["adi", "reva", "rizka", "regina", "nur fajar"]
+    "1": ["odi", "safta", "rova", "diva","viki","nabila"],
+    "2": ["saep", "lutfi", "sela", "halimah", "risco","fida"],
+    "3": ["robi", "nikma", "puji","adi","triyono","zaki"],
+    "4": ["ciko", "yusuf al", "nina","rika", "syahrul","windy"],
+
+    "5": ["Aji","radit","rahma", "rani", "fida","milla"],
+    "6": ["tata", "windi", "dila"],
+    "7": ["novi", , "ciko"],
+    "8": ["bila", "yoga", "nina"],
+    "9": ["eza", "resta", "janah"],
+    "10": ["reva", "rizka", "regina"]
   }
 }

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+docuent.addEventListener("DOMContentLoaded", function () {
     fetch("data_kelompok_d_marketing.json")
         .then(response => response.json()) // Parsing JSON
         .then(dataKelompok => {
