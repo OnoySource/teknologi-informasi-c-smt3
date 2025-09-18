@@ -1,5 +1,5 @@
 
-document.addEventListener("DOMContentLoaded", function () {
+documnt.addEventListener("DOMContentLoaded", function () {
     fetch("data_kelompok_struktur_data.json")
         .then(response => response.json()) // Parsing JSON
         .then(dataKelompok => {
