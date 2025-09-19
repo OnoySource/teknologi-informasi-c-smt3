@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("data_kelompok_basisdata.json")
+    fetch("daa_kelompok_basisdata.json")
         .then(response => response.json()) // Parsing JSON
         .then(dataKelompok => {
             const tableBody = document.getElementById("table-body");
