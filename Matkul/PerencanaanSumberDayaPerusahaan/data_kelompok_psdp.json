@@ -1,14 +1,75 @@
 {
   "kelompok": {
-    "1": ["odi", "safta", "rova", "diva"],
-    "2": ["saep", "lutpi", "sela", "halimah"],
-    "3": ["robi", "balbinta", "nikma", "puji"],
-    "4": ["aji", "yusuf", "radit", "syahrul"],
-    "5": ["risco", "triyono", "rahma", "rani"],
-    "6": ["fida", "mila", "tata", "windi", "dila"],
-    "7": ["novi", "rika", "zaki", "ciko"],
-    "8": ["bila", "yoga", "nina", "viki"],
-    "9": ["riki", "eza", "resta", "janah"],
-    "10": ["adi", "reva", "rizka", "regina", "nur fajar"]
+    "1": {
+      "makalah": "",
+      "anggota": [
+        "Jannah",
+        "Milla",
+        "Rahma",
+        "Novi",
+        "Ody",
+        "Riska"
+      ]
+    },
+    "2": {
+      "makalah": "",
+      "anggota": [
+        "Halimah",
+        "Tata",
+        "Risco",
+        "Rika",
+        "Yusuf Aji"
+      ]
+    },
+    "3": {
+      "makalah": "",
+      "anggota": [
+        "Resta",
+        "Cela",
+        "Regina",
+        "Triyono",
+        "Rani"
+      ]
+    },
+    "4": {
+      "makalah": "",
+      "anggota": [
+        "Windy",
+        "Reza",
+        "Rova",
+        "Ciko",
+        "Safta"
+      ]
+    },
+    "5": {
+      "makalah": "",
+      "anggota": [
+        "Fida",
+        "Reva",
+        "Nina",
+        "Roby",
+        "Adi"
+      ]
+    },
+    "6": {
+      "makalah": "",
+      "anggota": [
+       "Nabila",
+       "Dila",
+       "Puji",
+       "Syahrul",
+       "viki"
+      ]
+    },
+    "7": {
+      "makalah": "",
+      "anggota": [
+        "Opie",
+        "Nikma",
+        "Saep",
+        "Lutfi",
+        "Balbinta"
+      ]
+    }
   }
 }

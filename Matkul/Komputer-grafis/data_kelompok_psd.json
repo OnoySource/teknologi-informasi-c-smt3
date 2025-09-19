@@ -1,15 +1,70 @@
 {
   "kelompok": {
-    "1": ["odi", "safta", "rova", "diva","viki","nabila"],
-    "2": ["saep", "lutfi", "sela", "halimah", "risco","fida"],
-    "3": ["robi", "nikma", "puji","adi","triyono","zaki"],
-    "4": ["ciko", "yusuf al", "nina","rika", "syahrul","windy"],
-
-    "5": ["Aji","radit","rahma", "rani", "fida","milla"],
-    "6": ["tata", "windi", "dila"],
-    "7": ["novi", , "ciko"],
-    "8": ["bila", "yoga", "nina"],
-    "9": ["eza", "resta", "janah"],
-    "10": ["reva", "rizka", "regina"]
+    "1": {
+      "makalah": "",
+      "anggota": [
+        "Siti Nur Halimah",
+        "Nikmatul Fitriyah",
+        "Yogga Fiqri Ramadani",
+        "Rika Asrianti",
+        "Revaellinaia Alzhavina Putri",
+        "Mufida Bahtiar",
+        "Novia Fitriani",
+        "Windi Nabila Sari"
+      ]
+    },
+    "2": {
+      "makalah": "",
+      "anggota": [
+        "Regina Damai Larasati",
+        "Mila Anggi Septi Nur",
+        "Rizka Dwi Aninda Putri",
+        "Saepuloh",
+        "Cela Puspita",
+        "Yusuf Al Rosyid",
+        "Rani Wiyana",
+        "Resta Amelia"
+      ]
+    },
+    "3": {
+      "makalah": "",
+      "anggota": [
+        "Safta Edwin Sadri Adi",
+        "Vicky Roma Andreansyah",
+        "Reza Yuliana",
+        "Ody Saputra",
+        "Rohmatun Hasanah",
+        "Muhammad Luthfi Al Abiyyu",
+        "Syahrul Rezikin",
+        "Puji Rahayu"
+      ]
+    },
+    "4": {
+      "makalah": "",
+      "anggota": [
+        "Rovatun Nafsiah",
+        "Radit Rangga Saputra",
+        "Triyono",
+        "Robi Febrian Julianto",
+        "Opie Diva Indira Inge H",
+        "Zakky Nurul Falah",
+        "Tata Malikas",
+        "Chiko Nolando Putra P",
+        "Balbinta Syah Albariant"
+      ]
+    },
+    "5": {
+      "makalah": "",
+      "anggota": [
+        "Riski Adi Saputra",
+        "Yusuf Aji Pratama",
+        "Raudlatul Jannah",
+        "Nurul Fadillah Maharani",
+        "Risco Alfajar",
+        "Windy Ananda Kusumawardani",
+        "Nina Setiani",
+        "Rikian Irawan"
+      ]
+    }
   }
 }
