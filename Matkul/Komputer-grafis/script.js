@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const row = `
                     <tr>
                         <td>${kelompok}</td>
-                        <td>${anggota}></td>
+                        <td>${anggota}</td>
                         
                         <td>${makalah}</td>
                     </tr>`;
