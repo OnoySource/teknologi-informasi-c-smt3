@@ -1,0 +1,11 @@
+{
+  "transaksi": [
+    {
+      "tanggal": "2025-09-01",
+      "keterangan": "-",
+      "uang_masuk": 0,
+      "uang_keluar": 0,
+      "saldo": 300000000
+    }
+  ]
+}
