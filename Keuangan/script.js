@@ -10,8 +10,8 @@ async function loadKas() {
       row.innerHTML = `
         <td>${item.tanggal}</td>
         <td>${item.keterangan}</td>
-        <td>${item.uang_masuk.toLocaleString("id-ID")}</td>
-        <td>${item.uang_keluar.toLocaleString("id-ID")}</td>
+        <td>+${item.uang_masuk.toLocaleString("id-ID")}</td>
+        <td>-${item.uang_keluar.toLocaleString("id-ID")}</td>
         <td>RP ${item.saldo.toLocaleString("id-ID")}</td>
       `;
       tbody.appendChild(row);
