@@ -2,29 +2,8 @@
   "transaksi": [
     {
       "tanggal": "2025-09-01",
-      "keterangan": "Mau saya tambahin juga baris total pemasukan & pengeluaran di bawah tabel biar kayak laporan ringkas, bre?",
-      "uang_masuk": 0,
-      "uang_keluar": 0,
-      "saldo": 300000000
-    },
-    {
-      "tanggal": "2025-09-01",
-      "keterangan": "Mau saya tambahin juga baris total pemasukan & pengeluaran di bawah tabel biar kayak laporan ringkas, bre?",
-      "uang_masuk": 0,
-      "uang_keluar": 0,
-      "saldo": 300000000
-    },
-    {
-      "tanggal": "2025-09-01",
-      "keterangan": "Mau saya tambahin juga baris total pemasukan & pengeluaran di bawah tabel biar kayak laporan ringkas, bre?",
-      "uang_masuk": 0,
-      "uang_keluar": 0,
-      "saldo": 300000000
-    },
-    {
-      "tanggal": "2025-09-01",
-      "keterangan": "Mau saya tambahin juga baris total pemasukan & pengeluaran di bawah tabel biar kayak laporan ringkas, bre?",
-      "uang_masuk": 0,
+      "keterangan": "Donasi dari Elon Musk",
+      "uang_masuk": 300000000,
       "uang_keluar": 0,
       "saldo": 300000000
     }
