@@ -18,3 +18,22 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error("Gagal memuat file:", error));
 });
+
+function searching() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let table = document.getElementById("table-body");
+    let rows = table.getElementsByTagName("tr");
+
+    for (let i = 0; i < rows.length; i++) {
+        let cols = rows[i].getElementsByTagName("td");
+
+        let nim = cols[0].textContent.toLowerCase();
+        let nama = cols[1].textContent.toLowerCase(); 
+
+        if (nim.indexOf(input) > -1 || nama.indexOf(input) > -1) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }
+    }
+}

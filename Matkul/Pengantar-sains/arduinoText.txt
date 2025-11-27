@@ -1,0 +1,23 @@
+
+hello world
+
+/*
+  Blink
+
+  Nyalain dan matiin LED secara berkala.
+  Board: Arduino Uno
+  Pin LED: 13
+*/
+
+void setup() {
+  // Set pin 13 sebagai output
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13, HIGH);   // Nyalain LED
+  delay(1000);              // Tunggu 1 detik
+  digitalWrite(13, LOW);    // Matikan LED
+  delay(1000);              // Tunggu 1 detik
+}
+
